@@ -7,8 +7,8 @@
 1. Search for `Minimal-theme`
 1. Click **Install** to install it
 1. Click **Reload** to reload your editor
-1. Navigate to File > Preferences > Color Theme > **dark night pro**
+1. Navigate to File > Preferences > Color Theme > **Minimal ligth & Minimal Dark**
 
 ## License
 
-[MIT](https://github.com/buttercubz/dark-night-pro/blob/master/LICENSE.md)
+[MIT](https://github.com/watercubz/minimal-theme/blob/master/LICENSE.md)
