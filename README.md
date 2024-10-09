@@ -1,16 +1,14 @@
-# minimal-theme README
+![theme screenshot](https://github.com/watercubz/minimal-theme/raw/master/images/minimal-dark-example.png)
+![theme screenshot](https://github.com/watercubz/minimal-theme/raw/master/images/minimal-ligth-example.png)
 
-## Working with Markdown
+# Installation
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+1. Open the **Extensions** sidebar in VS Code. `View → Extensions`
+1. Search for `Minimal-theme`
+1. Click **Install** to install it
+1. Click **Reload** to reload your editor
+1. Navigate to File > Preferences > Color Theme > **dark night pro**
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## License
 
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+[MIT](https://github.com/buttercubz/dark-night-pro/blob/master/LICENSE.md)

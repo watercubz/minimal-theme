@@ -4,8 +4,17 @@
   "description": "Thema minimalista el cual te ayudara a la hora de ver de noche combinando los mejores colores oscuros y blanco",
   "version": "0.0.1",
   "publisher": "watercubz",
+  "icon": "./images/icon.png",
   "engines": {
     "vscode": "^1.94.0"
+  },
+  "author": {
+    "name": "Eury Sosa",
+    "url": "https://github.com/watercubz",
+    "email": "eurysosagarcia@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/buttercubz/Minimal-theme"
   },
   "categories": [
     "Themes"
