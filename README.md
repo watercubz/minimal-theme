@@ -7,7 +7,7 @@
 1. Search for `Minimal-theme`
 1. Click **Install** to install it
 1. Click **Reload** to reload your editor
-1. Navigate to File > Preferences > Color Theme > **Minimal ligth & Minimal Dark**
+1. Navigate to File > Manage > Themes > Color Theme > **Minimal ligth & Minimal Dark**
 
 ## License
 
