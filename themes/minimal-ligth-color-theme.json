@@ -1,104 +1,84 @@
 {
-	"name": "Minimal Dark",
-	"type": "dark",
-	"colors": {
-			// Fondo del editor
-			"editor.background": "#2E3440",
-			"editor.foreground": "#D8DEE9",
-			
-			// Barra lateral (Sidebar)
-			"sideBar.background": "#2E3440",  // Fondo oscuro suave
-			"sideBar.foreground": "#D8DEE9",  // Texto claro, legible
-			"sideBarTitle.foreground": "#ECEFF4",
-			"sideBarSectionHeader.background": "#4C566A",
-			"sideBarSectionHeader.foreground": "#D8DEE9",
-
-			// Explorer (No folder open)
-			"editorGroup.emptyBackground": "#2E3440",  // Fondo oscuro del explorer sin carpetas abiertas
-			"list.emptyForeground": "#D8DEE9",  // Texto en el explorer cuando no hay carpetas
-
-			// Timeline
-			"timeline.background": "#2E3440",  // Fondo del timeline
-			"timeline.foreground": "#D8DEE9",  // Texto claro en el timeline
-			
-			// Barra horizontal (de archivos abiertos)
-			"tab.activeBackground": "#2E3440",  // Fondo de la pestaña activa igual al sidebar
-			"tab.inactiveBackground": "#3B4252",  // Fondo de las pestañas inactivas ligeramente más claro
-			"tab.activeForeground": "#D8DEE9",  // Texto claro en la pestaña activa
-			"tab.inactiveForeground": "#4C566A",  // Texto gris suave en pestañas inactivas
-			"tab.border": "#2E3440",  // Sin borde visible para un look minimalista
-			"editorGroupHeader.tabsBackground": "#2E3440",  // Fondo de la barra de pestañas
-			
-			// Barra de estado (abajo)
-			
-			"statusBar.background": "#2E3440",  // Fondo oscuro igual al editor
-			"statusBar.foreground": "#D8DEE9",  // Texto claro
-			"statusBar.noFolderBackground": "#2E3440",
-			"statusBar.noFolderForeground": "#D8DEE9",
-			"statusBar.border": "#4C566A",
-			
-			// Terminal
-
-			"terminal.background": "#2E3440",   // Terminal con el mismo fondo que el editor
-			"terminal.foreground": "#D8DEE9",   // Texto claro
-			"terminalCursor.background": "#D8DEE9",
-			"terminalCursor.foreground": "#D8DEE9",
-			
-			// Barra de pestañas (Activity Bar)
-
-			"activityBar.background": "#2E3440",  // Fondo oscuro igual al editor
-			"activityBar.foreground": "#ECEFF4",  // Texto claro
-			"activityBarBadge.background": "#007ACC",  // Azul fuerte para destacar los badges
-			"activityBarBadge.foreground": "#FFFFFF",
-			
-			// Otros elementos
-
-			"titleBar.activeBackground": "#2E3440",   // Fondo de la barra de título consistente
-			"titleBar.activeForeground": "#D8DEE9",   // Texto claro
-			"titleBar.inactiveBackground": "#2E3440",
-			"titleBar.inactiveForeground": "#4C566A",
-			
-			"editorLineNumber.foreground": "#4C566A",  // Números de línea en gris suave
-			"editor.selectionBackground": "#4C566A",  // Fondo de selección gris suave
-			"editor.inactiveSelectionBackground": "#3B4252",  // Selección inactiva
-			"editorCursor.foreground": "#D8DEE9",  // Cursor claro
-			"button.background": "#81A1C1",  // Botones con color azul suave
-			"button.foreground": "#ECEFF4",  // Texto claro en botones
-			"input.background": "#434C5E",  // Fondo de los inputs
-			"input.foreground": "#D8DEE9"  // Texto claro en inputs
-	},
-	"tokenColors": [
-			{
-					"scope": ["comment"],
-					"settings": {
-							"foreground": "#4C566A",  // Comentarios en gris suave
-							"fontStyle": "italic"
-					}
-			},
-			{
-					"scope": ["keyword"],
-					"settings": {
-							"foreground": "#81A1C1",  // Azul relajante para las palabras clave
-							"fontStyle": "bold"
-					}
-			},
-			{
-					"scope": ["string"],
-					"settings": {
-							"foreground": "#A3BE8C"  // Verde suave para cadenas
-					}
-			},
-			{
-					"scope": ["variable"],
-					"settings": {
-							"foreground": "#BF616A"  // Rojo suave para variables
-					}
-			},
-			{
-					"scope": ["function"],
-					"settings": {
-							"foreground": "#88C0D0"  // Turquesa suave para funciones
-					}
-			}
-	]
+  "name": "Minimal Light",
+  "type": "light",
+  "colors": {
+    // Fondo del editor
+    "editor.background": "#FAFAFA",
+    "editor.foreground": "#2B2B2B",
+    
+    // Barra lateral (Sidebar)
+    "sideBar.background": "#FFFFFF",
+    "sideBar.foreground": "#2B2B2B",
+    "sideBarTitle.foreground": "#333333",
+    "sideBarSectionHeader.background": "#F5F5F5",
+    "sideBarSectionHeader.foreground": "#333333",
+    
+    // Barra de estado (abajo)
+    "statusBar.background": "#F0F0F0",
+    "statusBar.foreground": "#333333",
+    "statusBar.noFolderBackground": "#E5E5E5",
+    "statusBar.noFolderForeground": "#333333",
+    "statusBar.border": "#CCCCCC",
+    
+    // Terminal
+    "terminal.background": "#FFFFFF",
+    "terminal.foreground": "#2B2B2B",
+    "terminalCursor.background": "#2B2B2B",
+    "terminalCursor.foreground": "#2B2B2B",
+    
+    // Barra de pestañas (activity bar)
+    "activityBar.background": "#F5F5F5",
+    "activityBar.foreground": "#333333",
+    "activityBarBadge.background": "#007ACC",
+    "activityBarBadge.foreground": "#FFFFFF",
+    
+    // Otros elementos
+    "titleBar.activeBackground": "#FFFFFF",
+    "titleBar.activeForeground": "#333333",
+    "titleBar.inactiveBackground": "#F5F5F5",
+    "titleBar.inactiveForeground": "#888888",
+    
+    "editorLineNumber.foreground": "#A0A0A0",
+    "editor.selectionBackground": "#D7D7D7",
+    "editor.inactiveSelectionBackground": "#E5E5E5",
+    "editorCursor.foreground": "#2B2B2B",
+    "button.background": "#007ACC",
+    "button.foreground": "#FFFFFF",
+    "input.background": "#FFFFFF",
+    "input.foreground": "#333333"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#888888",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword"],
+      "settings": {
+        "foreground": "#007ACC",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#D19A66"
+      }
+    },
+    {
+      "scope": ["variable"],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": ["function"],
+      "settings": {
+        "foreground": "#6A8759"
+      }
+    }
+  ]
 }
