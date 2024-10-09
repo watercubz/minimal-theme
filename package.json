@@ -1,8 +1,8 @@
 {
-  "name": "minimal-theme",
+  "name": "minimal-themes",
   "displayName": "Minimal-theme",
   "description": "Thema minimalista el cual te ayudara a la hora de ver de noche combinando los mejores colores oscuros y blanco",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Minimal-theme",
   "icon": "images/icon.png",
   "engines": {
